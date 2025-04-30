@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">PORTFOLIO</h1>
+            <nav>
+                <a data-aos="zoom-out" data-aos-duration="1500" href="index.html">HOME</a>
+                <a data-aos="zoom-out" data-aos-duration="2000" href="index.html#skills">SKILLS</a>
+                <a data-aos="zoom-out" data-aos-duration="2500" href="Projects.html">PROJECTS</a>
+                <a data-aos="zoom-out" data-aos-duration="3000" href="index.html#contact">CONTACT</a>
+                <a data-aos="zoom-out" data-aos-duration="3000" href="#">RESUME</a>
+            </nav>
+            <button data-aos="zoom-out" data-aos-duration="1500" class="btn-signing">SIGN-IN</button>
+        </header>
+
+        <main class="projects-main">
+            <div class="content">
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1500" class="tag-box">
+                    <div class="tag">MY WORK &wedbar;</div>
+                </div>
+
+                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="2500">PROJECT SHOWCASE</h1>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="project-header">
+                            <span class="project-avail">AVAIL</span>
+                            <span class="project-tag">AI/ML</span>
+                        </div>
+                        <h3>Sentiment Analysis Tool</h3>
+                        <p class="project-description">
+                            Developed a machine learning model that analyzes customer reviews with 92% accuracy using Python and TensorFlow.
+                        </p>
+                        <a href="#" class="btn-project">View Details &gt;</a>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="project-header">
+                            <span class="project-tag">Web Development</span>
+                        </div>
+                        <h3>E-commerce Dashboard</h3>
+                        <p class="project-description">
+                            Built a responsive admin dashboard with React.js and Node.js that processes real-time sales data.
+                        </p>
+                        <a href="#" class="btn-project">View Details &gt;</a>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="project-header">
+                            <span class="project-tag">Research</span>
+                        </div>
+                        <h3>Blockchain Security Paper</h3>
+                        <p class="project-description">
+                            Published research on blockchain vulnerabilities in IOSR Journal with novel mitigation techniques.
+                        </p>
+                        <a href="#" class="btn-project">View Details &gt;</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
